@@ -1,3 +1,8 @@
+
+CryptoBase - application created with React, TailwindCSS, using Firebase auth & storage, hosted on Firebase.
+CryptoBase - application for monitoring cryptocurrency market prices, with the ability to view information on selected coins. The app allows user authentication and tracking of favorite coins on the user's personal account page.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
