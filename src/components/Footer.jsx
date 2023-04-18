@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaTwitter, FaFacebook, FaTiktok, FaGithub } from "react-icons/fa";
 import ThemeToggle from "./ThemeToggle";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -14,7 +15,11 @@ function Footer() {
               <li className="text-sm py-2">Help Center</li>
               <li className="text-sm py-2">Contact Us</li>
               <li className="text-sm py-2">API Status</li>
-              <li className="text-sm py-2">Documentation</li>
+              <li className="text-sm py-2">
+                <Link to={`https://www.coingecko.com/uk/api/documentation`}>
+                  Documentation
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
@@ -49,11 +54,11 @@ function Footer() {
                 </form>
               </div>
               <div className="flex justify-between py-4 ">
-                <AiOutlineInstagram className="hover:text-accent" size={17}/>
-                <FaFacebook className="hover:text-accent" size={17}/>
-                <FaGithub className="hover:text-accent" size={17}/>
-                <FaTwitter className="hover:text-accent" size={17}/>
-                <FaTiktok className="hover:text-accent" size={17}/>
+                <AiOutlineInstagram className="hover:text-accent" size={17} />
+                <FaFacebook className="hover:text-accent" size={17} />
+                <FaGithub className="hover:text-accent" size={17} />
+                <FaTwitter className="hover:text-accent" size={17} />
+                <FaTiktok className="hover:text-accent" size={17} />
               </div>
             </div>
           </div>
