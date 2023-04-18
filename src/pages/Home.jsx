@@ -5,8 +5,8 @@ import Trending from "../components/Trending";
 function Home({ coins }) {
   return (
     <div>
-      <CoinSearch coins={coins} />
       <Trending />
+      <CoinSearch coins={coins} />
     </div>
   );
 }
